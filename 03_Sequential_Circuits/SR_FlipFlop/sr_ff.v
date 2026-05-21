@@ -19,8 +19,8 @@ module sr_ff(
         end
         
         2'b10:begin 
-        Q <= 1'b0;
-        Qbar <= 1'b1;
+        Q <= 1'b1;
+        Qbar <= 1'b0;
         end
         
         2'b11:begin 
