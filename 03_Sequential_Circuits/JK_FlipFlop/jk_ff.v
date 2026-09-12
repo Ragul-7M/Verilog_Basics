@@ -1,13 +1,13 @@
 module jk_ff(
-    input j,
-    input k,
+    input J,
+    input K,
     input clk,
     output reg Q,
     output reg Qbar
     );
     always @(posedge clk)
     begin
-        case({j,k})
+        case({J,K})
             2'b00:begin 
             Q <= Q;
             Qbar <= Qbar;
